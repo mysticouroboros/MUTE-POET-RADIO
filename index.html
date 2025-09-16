@@ -63,7 +63,15 @@
     a{
       color:oragne;
     }
-      
+      .mute-poet-box {
+  position: fixed;     /* stays on screen even if you scroll */
+  top: 100px;          /* adjust vertical position */
+  right: 20px;         /* adjust distance from the right edge */
+  border: 2px solid black;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+}
+
       
   </style>
 </head>
@@ -110,7 +118,8 @@ session: outsider links - <a href="blackdada.pdf"> 1 </a>
 </div
           </li>
   </ul>
-  
+    <div class="mute-poet-box">the mute poet</div>
+
   <script>
     function toggleIframe() {
       const iframe = document.getElementById('iframe-container');
